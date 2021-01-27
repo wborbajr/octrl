@@ -1,0 +1,63 @@
+
+seria do razorsql
+RYVBTQFCNUEHE7XARCD78VR
+FF6J4RYVNXJXSUYSZJV49BZ
+
+Falta faz:
+
+* form de cadastro de clientes
+-----------------------------------
+- controlar saida do form por esc
+- validação do CPF_CNPJ
+- validação de campos de telefones
+- validação do campo combo pais
+- validação do campo combo de tipos de logradouros
+-
+
+
+-- delete from tb_cli_pf_adicionais;
+-- delete from tb_cli_pf;
+-- delete from tb_os_nome;
+
+-- delete from tb_os_objeto_os
+-- delete from tb_os_nfvenda
+-- delete from tb_os_item
+-- delete tb_d4_paf
+-- delete from tb_os;
+
+
+***************************
+
+SELECT r.ID_OS, r.ID_CLIENTE, r.ID_VENDEDOR, r.DT_OS, r.HR_OS, r.DT_ENTREGA,
+    r.COMPRADOR, r.ID_STATUS, r.OBSERVACAO, r.ID_MODULO, r.ENTREGA, r.CHAVE,
+    r.ID_OSATEND, r.DT_GARANTIA, r.ID_OBJETO_CONTRATO, r.DT_RETIRADA,
+    r.OBS_INTERNA, r.ID_TECNICO_RESP, r.DT_FECHADO, r.IMPORTADO
+FROM TB_OS r
+
+***************************
+
+SELECT r.ID_ITEMOS, r.QTD_ITEM, r.QTD_IMPORT, r.VLR_TOTAL, r.PRC_CUSTO,
+    r.PRC_LISTA, r.VLR_DESC, r.ID_IDENTIFICADOR, r.ID_OS, r.ITEM_CANCEL,
+    r.DT_LACTO, r.CASAS_QTD, r.CASAS_VLR, r.ST, r.ALIQUOTA, r.CHAVE,
+    r.COD_BARRA, r.ID_FUNCIONARIO, r.DT_ITEM, r.HR_ITEM, r.VLR_UNIT
+FROM TB_OS_ITEM r
+
+***************************
+
+SELECT r.RDB$DB_KEY, r.ID_OS, r.ID_OBJETO, r.IDENT1, r.IDENT2, r.IDENT3,
+    r.IDENT4, r.IDENT5, r.DEFEITO, r.LOCALIZACAO, r.ESTADO_ACESSORIOS
+FROM TB_OS_OBJETO_OS r
+
+
+
+
+
+
+
+
+
+
+
+
+
+.

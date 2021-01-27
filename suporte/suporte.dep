@@ -1,0 +1,21 @@
+<!-- THIS PAGE PLUGINS -->
+<script type='text/javascript' src='js/plugins/icheck/icheck.min.js'></script>
+<script type="text/javascript" src="js/plugins/mcustomscrollbar/jquery.mCustomScrollbar.min.js"></script>
+
+<script type="text/javascript" src="js/plugins/bootstrap/bootstrap-select.js"></script>
+
+<script type="text/javascript" src="vendor/printThis.js"></script>
+
+
+<script type="text/javascript" src="js/plugins/rangeslider/jQAllRangeSliders-min.js"></script>
+<script type="text/javascript" src="js/plugins/knob/jquery.knob.min.js"></script>
+
+<!-- fancybox -->
+ <link rel="stylesheet" type="text/css" href="vendor/fancybox/jquery.fancybox.min.css">
+ <script src="vendor/fancybox/jquery.fancybox.min.js"></script>
+<!-- fancybox -->
+
+<!-- END THIS PAGE PLUGINS -->
+
+<script type="text/javascript" src="js/plugins.js"></script>
+<script type="text/javascript" src="js/actions.js"></script>

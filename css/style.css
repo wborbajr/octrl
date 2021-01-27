@@ -1,0 +1,58 @@
+body{
+		font-family:helvetica, verdana;
+		padding-top:10px;
+		font-size:9pt;
+		background-color:#FFF;
+	}
+table{
+	border-collapse: collapse;
+	border: 0px solid black;
+}
+table tr td{
+	cellpadding:0px;
+	cellspacing:0px;
+	padding-left:5px;
+	padding-right:5px;
+}
+strong{
+	padding-left:5px;
+	padding-right:5px;
+}
+a{
+	text-decoration:none;
+}
+a:visited{
+	color:#FFF;
+}
+.logo{
+		height: 58px;				
+		float:left;
+		padding-top:10px;
+		padding-left:10px;
+	 }
+.meio{
+		margin:0 auto;
+		text-align:center;
+}
+.titulo{
+		font-size:16pt;
+		padding:10px;
+}
+.dados{
+	font-weigh: normal;
+}
+.institucional{
+	font-size: 8pt;
+	float: left;
+	padding-left:80px;
+	text-align:left;
+	/* word-spacing:10px;
+	font-stretch:expanded; */
+}
+.titulo{
+	font-size:16pt;
+	font-weigh: bold;
+}
+.hide{
+	display:none;
+}

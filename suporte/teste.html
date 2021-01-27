@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <!-- CSS -->
+	  <link rel="stylesheet" type="text/css" href="/oCtrl/vendor/fancybox/jquery.fancybox.min.css">
+
+  </head>
+  <body>
+    <a href="javascript:window.open('../comum/os_print.php', '_impressao_os')">teste</a>
+
+    <a href="http://192.168.0.4/oCtrl/comum/os_print.php" data-fancybox data-caption="Amém!!">
+    	Imagem Quebrada
+    </a>
+
+    <p>
+      <a href="http://www.omniinformatica.com.br/oCtrl/comum/os_print.php?origem=lda&os=6090" data-type="html" data-fancybox data-caption="This image has a caption">
+          impressão de OS
+      </a>
+    </p>
+
+<p>
+  <a data-fancybox data-type="iframe" data-src="../comum/os_print.php?origem=lda&os=6090&local=../" href="javascript:;">
+  	impressão de OS
+  </a>
+</p>
+
+    <!-- JS -->
+  	<script src="/oCtrl/vendor/jquery/jquery.min.js"></script>
+    <!-- <script src="//code.jquery.com/jquery-3.2.1.min.js"></script> -->
+  	<script src="/oCtrl/vendor/fancybox/jquery.fancybox.min.js"></script>
+
+  </body>
+</html>
+<script type="text/javascript">
+$('[data-fancybox]').fancybox({
+  buttons : [
+    'zoom',
+    'close'
+  ]
+});
+</script>

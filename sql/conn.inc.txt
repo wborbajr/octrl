@@ -1,0 +1,9 @@
+<?php
+	$sRede = '192.168.0.2:C:\Program Files\CompuFour\Clipp\BASE\CLIPP.FDB';
+	$sLocal = '127.0.0.1:C:/omni/CLIPP/CLIPP.FDB'; // localhost
+	$sLocal = '127.0.0.1:C:\xampp\htdocs\omni\fb\data\CLIPP.FDB'; // localhost
+	
+	$iLocal = 0; // processamento local
+
+	$servidor = $iLocal ? $sLocal : $sRede;
+?>

@@ -1,0 +1,103 @@
+SELECT first ID_CLIENTE FROM TB_CLIENTE WHERE NOME = '34603644752'  AND STATUS = 'A' 
+AND DT_CADASTRO = '2018-05-10' AND ID_FUNCIONARIO = '27' AND EMAIL_CONT = 'outro@outro.com'
+ORDER BY ID_CLIENTE DESC;
+
+
+
+	ID_ITEMOS,
+	QTD_ITEM,
+	QTD_IMPORT,
+	VLR_TOTAL,
+	PRC_CUSTO,
+	PRC_LISTA,
+	VLR_DESC,
+	ID_IDENTIFICADOR,
+	ID_OS,
+	ITEM_CANCEL,
+	DT_LACTO,
+	CASAS_QTD,
+	CASAS_VLR,
+	ST,
+	ALIQUOTA,
+	CHAVE,
+	COD_BARRA,
+	ID_FUNCIONARIO,
+	DT_ITEM,
+	HR_ITEM,
+	VLR_UNIT
+
+
+
+seria do razorsql
+RYVBTQFCNUEHE7XARCD78VR
+FF6J4RYVNXJXSUYSZJV49BZ
+
+
+Falta faz:
+
+* form de cadastro de clientes
+-----------------------------------
+- controlar saida do form por esc
+- validação do CPF_CNPJ
+- validação de campos de telefones
+- validação do campo combo pais
+- validação do campo combo de tipos de logradouros
+-
+
+
+-- delete from tb_cli_pf_adicionais;
+-- delete from tb_cli_pf;
+-- delete from tb_os_nome;
+
+-- delete from tb_os_objeto_os
+-- delete from tb_os_nfvenda
+-- delete from tb_os_item
+-- delete tb_d4_paf
+-- delete from tb_os;
+
+
+***************************
+
+SELECT r.ID_OS, r.ID_CLIENTE, r.ID_VENDEDOR, r.DT_OS, r.HR_OS, r.DT_ENTREGA,
+    r.COMPRADOR, r.ID_STATUS, r.OBSERVACAO, r.ID_MODULO, r.ENTREGA, r.CHAVE,
+    r.ID_OSATEND, r.DT_GARANTIA, r.ID_OBJETO_CONTRATO, r.DT_RETIRADA,
+    r.OBS_INTERNA, r.ID_TECNICO_RESP, r.DT_FECHADO, r.IMPORTADO
+FROM TB_OS r
+
+***************************
+
+SELECT r.ID_ITEMOS, r.QTD_ITEM, r.QTD_IMPORT, r.VLR_TOTAL, r.PRC_CUSTO,
+    r.PRC_LISTA, r.VLR_DESC, r.ID_IDENTIFICADOR, r.ID_OS, r.ITEM_CANCEL,
+    r.DT_LACTO, r.CASAS_QTD, r.CASAS_VLR, r.ST, r.ALIQUOTA, r.CHAVE,
+    r.COD_BARRA, r.ID_FUNCIONARIO, r.DT_ITEM, r.HR_ITEM, r.VLR_UNIT
+FROM TB_OS_ITEM r
+
+***************************
+
+SELECT r.RDB$DB_KEY, r.ID_OS, r.ID_OBJETO, r.IDENT1, r.IDENT2, r.IDENT3,
+    r.IDENT4, r.IDENT5, r.DEFEITO, r.LOCALIZACAO, r.ESTADO_ACESSORIOS
+FROM TB_OS_OBJETO_OS r
+
+http://weekseries.net/assistir-stargate-sg-1-online/
+
+https://seriemaniacos.tv/stargate-a-franquia/
+
+Cronologia oficial:
+
+1º) Stargate o filme (1994 – com o Kurt Russell)
+2º) Stargate SG-1 – piloto da série “Children of the Gods” (1997) até o episódio “New Order, parte 2” (2ª episódio da 8ª temporada).
+3º) Piloto de Stargate Atlantis (Rising, partes 1 e 2 – Os dois primeiros episódios da primeira temporada).
+4º) Comece a intercalar Stargate SG-1 e Stargate Atlantis, assistindo o 8×03 de SG-1 (“Lockdown”) e depois assistindo o 1×03 de Stargate Atlantis (“Hide and Seek”) e seguindo assim (SG-1 8×04, SGA 1×04, SG-1 8×05, SGA 1×05 até o último episódio de Stargate SG-1 (“Unending” 10×20) e o final da 3º Temporada de Stargate Atlantis.
+5º) Assista ao filme “Stargate SG-1: The ark of truth – A Arca da Verdade”
+6º) Assista toda a 4ª temporada de Stargate Atlantis.
+7º) Assista ao filme “Stargate SG-1: Continuum – A linha do tempo”
+8º) Assista toda a 5ª temporada de Stargate Atlantis.
+9º) Assistia as duas temporadas de Stargate Universe.
+
+
+
+
+
+
+
+.

@@ -1,0 +1,18 @@
+.logo{
+  /*float: left;*/
+  width: 35px;
+}
+
+.centro{
+	text-align:center;
+}
+
+.esq{
+	text-align:left;
+}
+
+.dir{
+	text-align:right;
+}
+
+

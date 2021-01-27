@@ -1,0 +1,24 @@
+<!-- THIS PAGE PLUGINS -->
+
+<script type='text/javascript' src='js/plugins/icheck/icheck.min.js'></script>
+<script type="text/javascript" src="js/plugins/mcustomscrollbar/jquery.mCustomScrollbar.min.js"></script>
+
+<script type='text/javascript' src='js/plugins/bootstrap/bootstrap-datepicker.js'></script>
+<script type='text/javascript' src='js/plugins/bootstrap/bootstrap-select.js'></script>
+
+<script type='text/javascript' src='js/plugins/validationengine/languages/jquery.validationEngine-en.js'></script>
+<script type='text/javascript' src='js/plugins/validationengine/jquery.validationEngine.js'></script>
+
+<script type='text/javascript' src='js/plugins/jquery-validation/jquery.validate.js'></script>
+<script type='text/javascript' src='js/plugins/maskedinput/jquery.maskedinput.min.js'></script>
+
+<script src="vendor/bootstrap.validator/validator.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-combobox/1.1.8/css/bootstrap-combobox.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-combobox/1.1.8/js/bootstrap-combobox.min.js"></script>
+
+
+<script src="js/cpf.js"></script>
+<script src="js/cnpj.js"></script>
+
+<!-- END THIS PAGE PLUGINS -->

@@ -1,0 +1,31 @@
+INSERT INTO TB_OS (
+ID_OS,
+ID_CLIENTE,
+ID_VENDEDOR,
+DT_OS,
+HR_OS,
+DT_ENTREGA,
+COMPRADOR,
+ID_STATUS,
+OBSERVACAO,
+ID_OSATEND,
+ID_OBJETO_CONTRATO,
+OBS_INTERNA,
+ID_TECNICO_RESP
+) VALUES(
+0,
+'5925',
+'13',
+'2017-11-23',
+'19:52:16',
+'2017-11-26',
+'',
+'7',
+'TESTE DE INC',
+'22',
+'13',
+'2018-03-26',
+'54',
+'alerta de algo que o vendedor achou interessante informar como privado',
+'1'
+);

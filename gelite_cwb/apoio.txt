@@ -1,0 +1,91 @@
+SELECT `glt07_sigla`, `glt15_ln`, `glt10_ramal`, `glt10_atendente`, `glt05_tipo` FROM `glt15_registros` WHERE 1
+
+
+SELECT `glt07_sigla`, count(glt07_sigla), `glt15_ln`, `glt10_ramal`, `glt10_atendente`, `glt05_tipo` FROM `glt15_registros` WHERE 1
+GROUP BY 1
+
+
+SELECT `glt07_sigla`, count(glt07_sigla), `glt10_ramal`, `glt10_atendente`, `glt05_tipo` FROM `glt15_registros` WHERE 1
+GROUP BY 1, 3, 4, 5
+
+
+SELECT `glt15_codigo`, `glt07_sigla`, `glt15_data`, `glt15_hora`, `glt15_ln`, `glt10_ramal`,
+`glt10_atendente`, `glt15_ring`, `glt15_duracao`, `glt15_fone`, `glt05_tipo`
+FROM `glt15_registros`
+WHERE 1
+
+
+
+"SELECT distinct `glt07_sigla`, EXTRACT(YEAR_MONTH FROM `glt15_data`) as periodo, `glt10_ramal`, `glt05_tipo`, glt05_desc, count(`glt07_sigla`) as qtd
+         FROM glt15_registros, glt05_tipos
+         WHERE glt05_tipo = glt05_codigo
+         AND glt05_tipo IN (1,2)
+         GROUP BY 1, 2, 3, 4, 5
+         ORDER BY glt07_sigla, periodo desc, qtd desc, glt10_ramal";
+
+
+
+
+
+SELECT `glt07_sigla`, `glt15_data`, `glt15_ln`, `glt10_ramal`,
+`glt10_atendente`,  `glt05_tipo`, COUNT(`glt15_codigo`) qtd
+FROM `glt15_registros`
+WHERE 1
+GROUP BY `glt07_sigla`
+
+
+
+
+
+
+Quem recebeu mais ligações no periodo (tipo 1)
+Quem fez mais ligações no periodo (tipo 2)
+
+sigla, periodo, ramal, tipo, qtd
+SELECT distinct `glt07_sigla`, EXTRACT(YEAR_MONTH FROM `glt15_data`) as periodo, `glt10_ramal`, `glt10_atendente`, `glt05_tipo`, glt05_desc, count(`glt07_sigla`) as qtd
+         FROM glt15_registros, glt05_tipos
+         WHERE glt05_tipo = glt05_codigo
+         AND glt05_tipo IN (1,2)
+         GROUP BY 1, 2, 3, 5
+         ORDER BY glt07_sigla, periodo desc, qtd desc
+
+
+
+SELECT glt07_sigla, EXTRACT(YEAR_MONTH FROM `glt15_data`) as periodo, glt05_tipo, count(glt05_tipo)
+FROM glt15_registros
+where glt05_tipo in (1,2)
+and glt07_sigla = 'cwb'
+group by 1,2,3
+order by periodo desc
+limit 6;
+
+
+/*** Ligações não atendidas
+SELECT glt07_sigla, EXTRACT(YEAR_MONTH FROM `glt15_data`) as periodo, glt15_ring, count(glt05_tipo) as qtd
+FROM omni_pear.glt15_registros
+where glt05_tipo in (1)
+and glt15_duracao = ''
+and glt15_ring > '00:15'
+group by 1, 2, 3
+order by 1, 2, 3
+
+
+SELECT `glt07_sigla`, EXTRACT(YEAR_MONTH FROM `glt15_data`) as periodo, glt05_tipo, COUNT(`glt05_tipo`) AS qtd
+FROM `glt15_registros` 
+WHERE 1
+GROUP BY 1, 2, 3
+ORDER BY 1, 2 DESC, 3
+
+
+quantas ligações no mes?
+quantas válidas?
+quantas apos o horário comercial?
+
+
+SELECT glt07_sigla, EXTRACT(YEAR_MONTH FROM `glt15_data`) as periodo, glt15_ring, glt05_tipo,  count(glt05_tipo) as qtd
+FROM glt15_registros
+where `glt10_ramal` = '7657'
+AND EXTRACT(YEAR_MONTH FROM `glt15_data`) = '201705'
+group by 1, 2, 3, 4
+order by 1, 2, 3
+
